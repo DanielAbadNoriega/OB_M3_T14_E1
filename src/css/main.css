@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+
+#mybutton {
+  margin: 2rem 40%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 rgb(241, 242, 242), -2px -2px 4px lightgray;
+  background: linear-gradient(to right bottom, rgb(237, 235, 235), white, white, white);
+
+  color: #b2b2b2;
+}
+
+#mybutton:hover {
+  background: linear-gradient(to right bottom, lightgray, white, white, white);
+}
